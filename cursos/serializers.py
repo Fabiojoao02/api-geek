@@ -64,4 +64,5 @@ class CursoSerializer(serializers.ModelSerializer):
 
         if media is None:
             return 0
+        # essa é uma conta estatística para arredondamento
         return round(media * 2) / 2
